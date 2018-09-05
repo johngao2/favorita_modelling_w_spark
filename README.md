@@ -8,6 +8,8 @@ The data contains daily sales histories of various grocery products in various s
 
 The dataset can be found here: https://www.kaggle.com/c/favorita-grocery-sales-forecasting/data
 
+I haven't included any of the data in this repo, because they're quite big.
+
 ####Prediction Objective
  The task is to predict the daily sales volume for each item-store combination. The actual kaggle competition wanted sales predictions for the next 16 days after the dataset ended. However, since this was a learning exercise, I only predicted sales for the next day.  
 
