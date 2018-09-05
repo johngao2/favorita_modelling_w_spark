@@ -1,4 +1,4 @@
-# Favorita dataset modelling with PySpark MLlib
+# Some basic modelling with PySpark MLlib
 
 
 This repository contains some scripts used to make predictions on the Corporacion Favorita Grocery Sales Forecasting dataset. I did this small project in order to get more familiar with the PySpark MLlib package.
