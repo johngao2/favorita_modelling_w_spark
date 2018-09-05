@@ -29,7 +29,7 @@ I used three models from PySpark MLlib, all with default hyperparameters:
 I also compared them to a LightGBM model trained in-memory, which was included in Ceshine's kernel above. We know that the LightGBM model works for sure since it's just copy-pasted.
 
 #### Model Evaluation
-The training dataset spanned from June 5, 2017 - July 9, 2018 (5 weeks). The validation set spans from July 10 - July 16. The test set is the single day of July 17. Note that since I didn't tune any hyperparameters for the PySpark models, a validations set technically isn't necessary. Therefore, for those models, I simply trained the model on both the train and val sets. The validations set was used for LightGBM for early stopping.
+The training dataset spanned from June 5, 2017 - July 9, 2018 (5 weeks). The validation set spans from July 10 - July 16 (1 week). The test set is the single day of July 17. Note that since I didn't tune any hyperparameters for the PySpark models, a validations set technically isn't necessary. Therefore, for those models, I simply trained the model on both the train and val sets. The validations set was used for LightGBM for early stopping.
 
 I used RMSE as the error metric for each of the models. Note that the target variable has been log transformed.
 
