@@ -15,7 +15,7 @@ The task is to predict the daily sales volume for each item-store combination. T
 
 #### Features
 The features that I used were quite limited, as the focus of this project was on modelling rather than feature engineering. Features included:
-* 3,7, and 14 day moving averages for sales past sales volume
+* 3, 7, and 14 day moving averages for sales past sales volume
 * The number of days within the past 2 weeks that an item was on promotion
 * whether or not an item is schedule to be on promotion, for each of the next 16 days
 
