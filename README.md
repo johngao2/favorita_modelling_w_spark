@@ -43,4 +43,4 @@ PySpark Gradient Boosted Trees  | 0.621411              |
 In-Memory LightGBM              | 0.604507              |
 
 #### Conclusion
-As expected, LightGBM performed the best. However, our other models came pretty close, which means that I probably didn't make and huge errors in the modelling process. Great success!
+As expected, LightGBM performed the best. However, our other models came pretty close, which means that I probably didn't make any huge errors in the modelling process. Great success!
